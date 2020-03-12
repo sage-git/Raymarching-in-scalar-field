@@ -7,21 +7,12 @@ Spherical harmonics (pz and dzr) are rendered as demonstration.
 
 ![d fog](demo/screenshot_fog.gif)
 
-# Requirements
-
-* Three.js
-
-https://github.com/mrdoob/three.js
-
 # How to view
 
 1. Clone this repo.
-2. Make `js` directory 
-4. Copy `controls` and `libs` of `example/js` directory in Three.js repo into `js` directory made at step 2.
-5. Build or copy `three.min.js` and place it in `js` directory.
-6. View `index.html`
+2. View `index.html`
 
-At the last step, I usually use python:
+At step 2, I usually use python:
 
 1. Launch HTTP server as `python -m http.server`
 2. Access http://localhost:8000 with a browser like Google Chrome.
@@ -39,6 +30,12 @@ At the last step, I usually use python:
 * Qiita (in Japanese)
 
 https://qiita.com/sage-git/items/85793dc3c274b15318bc
+
+# Acknowledgement
+
+Some javascript codes (script files in `js` directory) are taken from three.js project.
+
+https://github.com/mrdoob/three.js
 
 # Reference
 
